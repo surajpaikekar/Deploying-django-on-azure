@@ -1,0 +1,5 @@
+git config --global user.name "your user name" 
+git config --global user.email "email address" 
+git config --global push.default matching
+git config --global alias.co checkout
+git init

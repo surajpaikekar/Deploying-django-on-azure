@@ -1,0 +1,53 @@
+
+Terraform -
+1. Infrastructure managament automation tool
+2. Uses high-level configuration language (HCL) to describe the infrastructure in human-readable
+3. lets you create a blueprint, a template that you can version, share, and re-use. 
+4. 
+
+
+Prometheus-
+	- used for monitoring and visualizing metrics for computer systems and services.
+	- pull-based monitoring system that collects metrics from a variety of sources, such as
+		 applications, servers, and network devices.
+	- It does this by periodically scraping the metrics from each source and storing them in a database.
+	- uses a custom data format called PromQL to query and analyze the collected metrics.
+
+Graphna- 
+	- used for monitoring and visualizing metrics for computer systems and services.
+	- visualization platform that can be used to create dashboards to display Prometheus metrics.
+	- Grafana dashboards can be customized with a variety of charts, graphs, and other visualizations.
+
+
+
+
+
+-- Azure key vault
+-- securely scraping the data without alarming the user
+-- Try hands on some websites to scrape data securely for practise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

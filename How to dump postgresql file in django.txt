@@ -1,0 +1,13 @@
+How to dump the postgresql file into django postgreqsql db file?
+
+1. psql -U your username -d DB Name -f file/path/django_orm_dump.sql
+	- psql -U postgres -d sampleDB -f django_orm_dump.sql
+
+2. pg_restore -U your_User_Name -d DB_Name -v path\to\your\django_orm_dump.sql
+	- pg_restore -U postgres -d sampleDB -v path\to\your\django_orm_dump.sql
+
+
+
+user1 = User.objects.create(username='user1', email='user1@gmail.com')
+
+ Author.objects.get(pk=1).followers.add(user1, user2, user3) 
